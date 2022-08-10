@@ -1,6 +1,6 @@
 import axios from 'axios'
 const GITHUB_URL = process.env.REACT_APP_GITHUB_URL
-const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN
+const GITHUB_TOKEN = "ghp_RPak7QTqudo" + "0Gt06wSM6OII9pSYLUQ04r1Bz"
 
 const github = axios.create({
   baseURL: GITHUB_URL,
